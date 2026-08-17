@@ -3,11 +3,11 @@ import uuid
 import streamlit as st
 from langchain_core.messages import AIMessage, HumanMessage, ToolMessage
 
-from langgraph_rag_backend import (
-    chatbot,
+from langraph_rag_backend import (
     ingest_pdf,
     retrieve_all_threads,
     thread_document_metadata,
+    chatbot,
 )
 
 
